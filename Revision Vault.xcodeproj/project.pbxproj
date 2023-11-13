@@ -90,7 +90,7 @@
 		55AB60EE2B023C3C0059A8E0 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				55AB61062B0244F90059A8E0 /* Main Views */,
+				55AB61062B0244F90059A8E0 /* MainViews */,
 				55AB60E22B023B9D0059A8E0 /* ContentView.swift */,
 				55AB61072B0245000059A8E0 /* SubjectList */,
 			);
@@ -114,14 +114,14 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
-		55AB61062B0244F90059A8E0 /* Main Views */ = {
+		55AB61062B0244F90059A8E0 /* MainViews */ = {
 			isa = PBXGroup;
 			children = (
 				55AB60EF2B023C7B0059A8E0 /* HomeView.swift */,
 				55AB60F32B023E540059A8E0 /* RevisionCardsHome.swift */,
 				55AB60F52B023EB90059A8E0 /* PastExamHome.swift */,
 			);
-			path = "Main Views";
+			path = MainViews;
 			sourceTree = "<group>";
 		};
 		55AB61072B0245000059A8E0 /* SubjectList */ = {
