@@ -1,0 +1,23 @@
+[
+    {
+        "name": "Maths",
+        "category": "Core",
+        "id": 1001,
+        "gcse": true,
+        "alevel": true
+    },
+    {
+        "name": "English Language",
+        "category": "Core",
+        "id": 1002,
+        "gcse": false,
+        "alevel": true
+    },
+    {
+        "name": "English Literature",
+        "category": "Core",
+        "id": 1003,
+        "gcse": true,
+        "alevel": false
+    }
+]
