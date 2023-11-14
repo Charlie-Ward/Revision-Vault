@@ -1,5 +1,5 @@
 //
-//  RevisionCardsMain.swift
+//  CardsExamBoardSelector.swift
 //  Revision Vault
 //
 //  Created by Charlie Ward on 14/11/2023.
@@ -14,7 +14,7 @@ struct CardsExamBoardSelector: View {
         VStack {
             Text("Qualification Level: \(level)")
             Text("Subject Category: \(subject.category.rawValue)")
-            Text("Revision Cards")
+            Text("Flashards")
         }
         .font(.subheadline)
         .foregroundStyle(.secondary)
@@ -26,8 +26,9 @@ struct CardsExamBoardSelector: View {
                 if subject.edexcelGCSE {
                     link(label: "Edexcel", destination: HomeView())
                 }
-            }.navigationBarTitle(Text("\(subject.name)"), displayMode: .large)
-        } else {
+            }.navigationTitle("\(subject.name)")
+                .navigationBarTitleDisplayMode(.large)
+        } else if level == "A-Level" {
             List {
                 if subject.aqaALEVEL {
                     link(label: "AQA", destination: HomeView())
@@ -35,7 +36,10 @@ struct CardsExamBoardSelector: View {
                 if subject.edexcelALEVEL {
                     link(label: "Edexcel", destination: HomeView())
                 }
-            }
+            }.navigationTitle("\(subject.name)")
+                .navigationBarTitleDisplayMode(.large)
+        } else{
+            Text("Level Fail")
         }
         
     }
@@ -50,5 +54,5 @@ struct CardsExamBoardSelector: View {
 }
 
 #Preview {
-    CardsExamBoardSelector(subject: subjects[0], level: "GCSE")
+    CardsExamBoardSelector(subject: subjects[0], level: "A-Level")
 }

@@ -24,7 +24,7 @@ struct ContentView: View {
                     Label("Home", systemImage: "house.fill")
                 }
                 .tag(Tab.home)
-            RevisionCardsHome()
+            FlashcardsHome()
                 .tabItem {
                     Label("Flashcards", systemImage: "menucard.fill")
                 }
