@@ -7,7 +7,6 @@
 
 import SwiftUI
 
-import SwiftUI
 
 struct PastExamHome: View {
     var body: some View {
