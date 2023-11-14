@@ -6,15 +6,21 @@
 //
 import Foundation
 
-var subjects: [Subject] = load("subjectData.json")
-
-var categories: [String: [Subject]] {
-    Dictionary(
-        grouping: subjects,
-        by: { $0.category.rawValue }
-    )
+final class ModelData: ObservableObject {
+    var subjects: [Subject] = load("subjectData.json")
+    
+    var features: [Subject] {
+        subjects.filter{ $0.isFeatured }
+    }
+    
+    var categories: [String: [Subject]] {
+        Dictionary(
+            grouping: subjects,
+            by: { $0.category.rawValue }
+        )
+    }
 }
-
+    
 func load<T: Decodable>(_ filename: String) -> T {
     let data: Data
 
