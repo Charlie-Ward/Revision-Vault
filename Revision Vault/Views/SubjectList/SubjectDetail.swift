@@ -19,7 +19,7 @@ struct SubjectDetail: View {
         .foregroundStyle(.secondary)
             
             List{
-                link(icon: "menucard.fill", label: "Revision Cards", destination: HomeView())
+                link(icon: "menucard.fill", label: "Flashcards", destination: CardsExamBoardSelector(subject: subject, level: level))
                 link(icon: "questionmark.circle.fill", label: "Past Exam Questions", destination: HomeView())
                 link(icon: "ellipsis.circle.fill", label: "Other Resources", destination: HomeView())
             }.navigationBarTitle(Text("\(subject.name)"), displayMode: .large)
