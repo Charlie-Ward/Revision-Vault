@@ -1,17 +1,9 @@
-/*
-See the LICENSE.txt file for this sample’s licensing information.
-
-Abstract:
-Storage for model data.
-*/
-
-/*
-See the LICENSE.txt file for this sample’s licensing information.
-
-Abstract:
-Storage for model data.
-*/
-
+//
+//  ModelData.swift
+//  Revision Vault
+//
+//  Created by Charlie Ward on 13/11/2023.
+//
 import Foundation
 
 var subjects: [Subject] = load("subjectData.json")

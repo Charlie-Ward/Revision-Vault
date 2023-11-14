@@ -1,9 +1,9 @@
-/*
-See the LICENSE.txt file for this sample’s licensing information.
-
-Abstract:
-A representation of a single landmark.
-*/
+//
+//  Subject.swift
+//  Revision Vault
+//
+//  Created by Charlie Ward on 13/11/2023.
+//
 
 import Foundation
 import SwiftUI
