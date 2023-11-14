@@ -53,10 +53,6 @@ struct PastExamQsExamBoardSelector: View {
     }
 }
 
-struct PastExamQsExamBoardSelector_Previews: PreviewProvider {
-    static let modelData = ModelData()
-    static var previews: some View {
-        PastExamQsExamBoardSelector(subject: modelData.subjects[0], level: "GCSE")
-            .environmentObject(modelData)
-    }
+#Preview {
+    PastExamQsExamBoardSelector(subject: subjects[0], level: "A-Level")
 }

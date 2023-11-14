@@ -53,10 +53,6 @@ struct CardsExamBoardSelector: View {
     }
 }
 
-struct CardsExamBoardSelector_Previews: PreviewProvider {
-    static let modelData = ModelData()
-    static var previews: some View {
-        CardsExamBoardSelector(subject: modelData.subjects[0], level: "GCSE")
-            .environmentObject(modelData)
-    }
+#Preview {
+    CardsExamBoardSelector(subject: subjects[0], level: "A-Level")
 }

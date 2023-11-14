@@ -22,16 +22,10 @@ struct Subject: Hashable, Codable, Identifiable {
     var aqaALEVEL: Bool
     var edexcelGCSE: Bool
     var edexcelALEVEL: Bool
-    
-    var isFeatured: Bool
 
-    private var imageName: String
-    var image: Image {
-        Image(imageName)
-    }
-    
-    var featureImage: Image?{
-        isFeatured ? Image(imageName + "_feature") : nil
-    }
+//    private var imageName: String
+//    var image: Image {
+//        Image(imageName)
+//    }
 }
 

@@ -8,11 +8,9 @@
 import SwiftUI
 
 struct SubjectList: View {
-    @EnvironmentObject var modelData: ModelData
-    
     var body: some View {
         NavigationView {
-            List(modelData.subjects) { subject in
+            List(subjects) { subject in
                 if subject.gcse {
                     NavigationLink {
                         SubjectDetail(subject: subject, level: "GCSE")

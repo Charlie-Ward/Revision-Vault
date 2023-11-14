@@ -36,10 +36,6 @@ struct SubjectDetail: View {
     }
 }
 
-struct SubjectDetail_Previews: PreviewProvider {
-    static let modelData = ModelData()
-    static var previews: some View {
-        SubjectDetail(subject: modelData.subjects[0], level: "GCSE")
-            .environmentObject(modelData)
-    }
+#Preview {
+    SubjectDetail(subject: subjects[0], level: "GCSE")
 }

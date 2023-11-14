@@ -8,9 +8,7 @@
         "aqaGCSE": true,
         "aqaALEVEL": true,
         "edexcelGCSE": true,
-        "edexcelALEVEL": true,
-        "isFeatured": true,
-        "imageName": "turtlerock"
+        "edexcelALEVEL": true
     },
     {
         "name": "English Language",
@@ -21,9 +19,7 @@
         "aqaGCSE": true,
         "aqaALEVEL": true,
         "edexcelGCSE": true,
-        "edexcelALEVEL":true,
-        "isFeatured": true,
-        "imageName": "charleyrivers"
+        "edexcelALEVEL":true
     },
     {
         "name": "English Literature",
@@ -34,8 +30,6 @@
         "aqaGCSE": false,
         "aqaALEVEL": false,
         "edexcelGCSE": true,
-        "edexcelALEVEL": true,
-        "isFeatured": true,
-        "imageName": "stmarylake"
+        "edexcelALEVEL": true
     }
 ]
