@@ -20,6 +20,7 @@
 		55AB61052B0244EA0059A8E0 /* SubjectRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55AB61042B0244EA0059A8E0 /* SubjectRow.swift */; };
 		55AB61092B02487B0059A8E0 /* SubjectList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55AB61082B02487B0059A8E0 /* SubjectList.swift */; };
 		55AB610B2B0254C40059A8E0 /* SubjectDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55AB610A2B0254C40059A8E0 /* SubjectDetail.swift */; };
+		55AB61142B0361930059A8E0 /* CardsExamBoardSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55AB61132B0361930059A8E0 /* CardsExamBoardSelector.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		55AB61042B0244EA0059A8E0 /* SubjectRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubjectRow.swift; sourceTree = "<group>"; };
 		55AB61082B02487B0059A8E0 /* SubjectList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubjectList.swift; sourceTree = "<group>"; };
 		55AB610A2B0254C40059A8E0 /* SubjectDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubjectDetail.swift; sourceTree = "<group>"; };
+		55AB61132B0361930059A8E0 /* CardsExamBoardSelector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsExamBoardSelector.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,8 +92,9 @@
 		55AB60EE2B023C3C0059A8E0 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				55AB61062B0244F90059A8E0 /* MainViews */,
 				55AB60E22B023B9D0059A8E0 /* ContentView.swift */,
+				55AB61122B03617E0059A8E0 /* InnerViews */,
+				55AB61062B0244F90059A8E0 /* MainViews */,
 				55AB61072B0245000059A8E0 /* SubjectList */,
 			);
 			path = Views;
@@ -132,6 +135,14 @@
 				55AB610A2B0254C40059A8E0 /* SubjectDetail.swift */,
 			);
 			path = SubjectList;
+			sourceTree = "<group>";
+		};
+		55AB61122B03617E0059A8E0 /* InnerViews */ = {
+			isa = PBXGroup;
+			children = (
+				55AB61132B0361930059A8E0 /* CardsExamBoardSelector.swift */,
+			);
+			path = InnerViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -215,6 +226,7 @@
 				55AB61092B02487B0059A8E0 /* SubjectList.swift in Sources */,
 				55AB61012B0241420059A8E0 /* Subject.swift in Sources */,
 				55AB610B2B0254C40059A8E0 /* SubjectDetail.swift in Sources */,
+				55AB61142B0361930059A8E0 /* CardsExamBoardSelector.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
