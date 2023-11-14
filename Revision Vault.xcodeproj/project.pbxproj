@@ -7,12 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5590E93D2B03DC3800EA511C /* FeatureCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5590E93C2B03DC3800EA511C /* FeatureCard.swift */; };
 		55AB60E12B023B9D0059A8E0 /* Revision_VaultApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55AB60E02B023B9D0059A8E0 /* Revision_VaultApp.swift */; };
 		55AB60E32B023B9D0059A8E0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55AB60E22B023B9D0059A8E0 /* ContentView.swift */; };
 		55AB60E52B023B9F0059A8E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55AB60E42B023B9F0059A8E0 /* Assets.xcassets */; };
 		55AB60E82B023B9F0059A8E0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55AB60E72B023B9F0059A8E0 /* Preview Assets.xcassets */; };
 		55AB60F02B023C7B0059A8E0 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55AB60EF2B023C7B0059A8E0 /* HomeView.swift */; };
-		55AB60F42B023E540059A8E0 /* RevisionCardsHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55AB60F32B023E540059A8E0 /* RevisionCardsHome.swift */; };
+		55AB60F42B023E540059A8E0 /* FlashcardsHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55AB60F32B023E540059A8E0 /* FlashcardsHome.swift */; };
 		55AB60F62B023EB90059A8E0 /* PastExamHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55AB60F52B023EB90059A8E0 /* PastExamHome.swift */; };
 		55AB60FE2B0241010059A8E0 /* subjectData.json in Resources */ = {isa = PBXBuildFile; fileRef = 55AB60FD2B0241010059A8E0 /* subjectData.json */; };
 		55AB61012B0241420059A8E0 /* Subject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55AB61002B0241420059A8E0 /* Subject.swift */; };
@@ -21,16 +22,18 @@
 		55AB61092B02487B0059A8E0 /* SubjectList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55AB61082B02487B0059A8E0 /* SubjectList.swift */; };
 		55AB610B2B0254C40059A8E0 /* SubjectDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55AB610A2B0254C40059A8E0 /* SubjectDetail.swift */; };
 		55AB61142B0361930059A8E0 /* CardsExamBoardSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55AB61132B0361930059A8E0 /* CardsExamBoardSelector.swift */; };
+		55AB61162B0374E40059A8E0 /* PastExamQsExamBoardSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55AB61152B0374E40059A8E0 /* PastExamQsExamBoardSelector.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5590E93C2B03DC3800EA511C /* FeatureCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FeatureCard.swift; path = ../../../../../../../FeatureCard.swift; sourceTree = "<group>"; };
 		55AB60DD2B023B9D0059A8E0 /* Revision Vault.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Revision Vault.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		55AB60E02B023B9D0059A8E0 /* Revision_VaultApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Revision_VaultApp.swift; sourceTree = "<group>"; };
 		55AB60E22B023B9D0059A8E0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		55AB60E42B023B9F0059A8E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		55AB60E72B023B9F0059A8E0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		55AB60EF2B023C7B0059A8E0 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
-		55AB60F32B023E540059A8E0 /* RevisionCardsHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RevisionCardsHome.swift; sourceTree = "<group>"; };
+		55AB60F32B023E540059A8E0 /* FlashcardsHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashcardsHome.swift; sourceTree = "<group>"; };
 		55AB60F52B023EB90059A8E0 /* PastExamHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PastExamHome.swift; sourceTree = "<group>"; };
 		55AB60FD2B0241010059A8E0 /* subjectData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = subjectData.json; sourceTree = "<group>"; };
 		55AB61002B0241420059A8E0 /* Subject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Subject.swift; sourceTree = "<group>"; };
@@ -39,6 +42,7 @@
 		55AB61082B02487B0059A8E0 /* SubjectList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubjectList.swift; sourceTree = "<group>"; };
 		55AB610A2B0254C40059A8E0 /* SubjectDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubjectDetail.swift; sourceTree = "<group>"; };
 		55AB61132B0361930059A8E0 /* CardsExamBoardSelector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsExamBoardSelector.swift; sourceTree = "<group>"; };
+		55AB61152B0374E40059A8E0 /* PastExamQsExamBoardSelector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PastExamQsExamBoardSelector.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +96,7 @@
 		55AB60EE2B023C3C0059A8E0 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				55AB61172B03900D0059A8E0 /* Home */,
 				55AB60E22B023B9D0059A8E0 /* ContentView.swift */,
 				55AB61122B03617E0059A8E0 /* InnerViews */,
 				55AB61062B0244F90059A8E0 /* MainViews */,
@@ -121,7 +126,7 @@
 			isa = PBXGroup;
 			children = (
 				55AB60EF2B023C7B0059A8E0 /* HomeView.swift */,
-				55AB60F32B023E540059A8E0 /* RevisionCardsHome.swift */,
+				55AB60F32B023E540059A8E0 /* FlashcardsHome.swift */,
 				55AB60F52B023EB90059A8E0 /* PastExamHome.swift */,
 			);
 			path = MainViews;
@@ -141,8 +146,25 @@
 			isa = PBXGroup;
 			children = (
 				55AB61132B0361930059A8E0 /* CardsExamBoardSelector.swift */,
+				55AB61152B0374E40059A8E0 /* PastExamQsExamBoardSelector.swift */,
 			);
 			path = InnerViews;
+			sourceTree = "<group>";
+		};
+		55AB61172B03900D0059A8E0 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				55AB61182B03928D0059A8E0 /* Feature */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		55AB61182B03928D0059A8E0 /* Feature */ = {
+			isa = PBXGroup;
+			children = (
+				5590E93C2B03DC3800EA511C /* FeatureCard.swift */,
+			);
+			path = Feature;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,12 +241,14 @@
 				55AB60F02B023C7B0059A8E0 /* HomeView.swift in Sources */,
 				55AB60E32B023B9D0059A8E0 /* ContentView.swift in Sources */,
 				55AB60F62B023EB90059A8E0 /* PastExamHome.swift in Sources */,
-				55AB60F42B023E540059A8E0 /* RevisionCardsHome.swift in Sources */,
+				5590E93D2B03DC3800EA511C /* FeatureCard.swift in Sources */,
+				55AB60F42B023E540059A8E0 /* FlashcardsHome.swift in Sources */,
 				55AB61032B0242C20059A8E0 /* ModelData.swift in Sources */,
 				55AB60E12B023B9D0059A8E0 /* Revision_VaultApp.swift in Sources */,
 				55AB61052B0244EA0059A8E0 /* SubjectRow.swift in Sources */,
 				55AB61092B02487B0059A8E0 /* SubjectList.swift in Sources */,
 				55AB61012B0241420059A8E0 /* Subject.swift in Sources */,
+				55AB61162B0374E40059A8E0 /* PastExamQsExamBoardSelector.swift in Sources */,
 				55AB610B2B0254C40059A8E0 /* SubjectDetail.swift in Sources */,
 				55AB61142B0361930059A8E0 /* CardsExamBoardSelector.swift in Sources */,
 			);
