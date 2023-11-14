@@ -22,7 +22,8 @@ struct SubjectDetail: View {
                 link(icon: "menucard.fill", label: "Flashcards", destination: CardsExamBoardSelector(subject: subject, level: level))
                 link(icon: "questionmark.circle.fill", label: "Past Exam Questions", destination: HomeView())
                 link(icon: "ellipsis.circle.fill", label: "Other Resources", destination: HomeView())
-            }.navigationBarTitle(Text("\(subject.name)"), displayMode: .large)
+            }.navigationTitle("\(subject.name)")
+            .navigationBarTitleDisplayMode(.large)
         }
     }
     
