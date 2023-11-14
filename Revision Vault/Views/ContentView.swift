@@ -26,7 +26,7 @@ struct ContentView: View {
                 .tag(Tab.home)
             RevisionCardsHome()
                 .tabItem {
-                    Label("Revision Cards", systemImage: "menucard.fill")
+                    Label("Flashcards", systemImage: "menucard.fill")
                 }
             PastExamHome()
                 .tabItem {
