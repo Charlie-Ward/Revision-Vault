@@ -17,6 +17,11 @@ struct Subject: Hashable, Codable, Identifiable {
     var id: Int
     var gcse: Bool
     var alevel: Bool
+    
+    var aqaGCSE: Bool
+    var aqaALEVEL: Bool
+    var edexcelGCSE: Bool
+    var edexcelALEVEL: Bool
 
 //    private var imageName: String
 //    var image: Image {

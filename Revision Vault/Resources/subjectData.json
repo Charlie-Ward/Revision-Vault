@@ -4,20 +4,32 @@
         "category": "Core",
         "id": 1001,
         "gcse": true,
-        "alevel": true
+        "alevel": true,
+        "aqaGCSE": true,
+        "aqaALEVEL": true,
+        "edexcelGCSE": true,
+        "edexcelALEVEL": false
     },
     {
         "name": "English Language",
         "category": "Core",
         "id": 1002,
         "gcse": false,
-        "alevel": true
+        "alevel": true,
+        "aqaGCSE": true,
+        "aqaALEVEL": true,
+        "edexcelGCSE": true,
+        "edexcelALEVEL":true
     },
     {
         "name": "English Literature",
         "category": "Core",
         "id": 1003,
         "gcse": true,
-        "alevel": false
+        "alevel": false,
+        "aqaGCSE": false,
+        "aqaALEVEL": false,
+        "edexcelGCSE": true,
+        "edexcelALEVEL": true
     }
 ]
