@@ -8,7 +8,7 @@
         "aqaGCSE": true,
         "aqaALEVEL": true,
         "edexcelGCSE": true,
-        "edexcelALEVEL": false
+        "edexcelALEVEL": true
     },
     {
         "name": "English Language",
