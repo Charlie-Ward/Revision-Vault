@@ -25,6 +25,7 @@ struct SubjectRow: View {
 }
 
 struct SubjectRow_Previews: PreviewProvider {
+    static var subjects = ModelData().subjects
     static var previews: some View{
         SubjectRow(subject: subjects[0], level: "GCSE")
     }
