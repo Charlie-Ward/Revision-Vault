@@ -13,6 +13,8 @@ struct Subject: Hashable, Codable, Identifiable {
     var category: Category
     enum Category: String, CaseIterable, Codable{
         case core = "Core"
+        case language = "Language"
+        case humanity = "Humanity"
     }
     var id: Int
     var gcse: Bool

@@ -37,5 +37,31 @@
         "edexcelALEVEL": true,
         "isFeatured": true,
         "imageName": "turtlerock"
+    },
+    {
+        "name": "French",
+        "category": "Language",
+        "id": 1004,
+        "gcse": true,
+        "alevel": false,
+        "aqaGCSE": false,
+        "aqaALEVEL": false,
+        "edexcelGCSE": true,
+        "edexcelALEVEL": true,
+        "isFeatured": true,
+        "imageName": "turtlerock"
+    },
+    {
+        "name": "Geography",
+        "category": "Humanity",
+        "id": 1005,
+        "gcse": true,
+        "alevel": false,
+        "aqaGCSE": false,
+        "aqaALEVEL": false,
+        "edexcelGCSE": true,
+        "edexcelALEVEL": true,
+        "isFeatured": true,
+        "imageName": "turtlerock"
     }
 ]
