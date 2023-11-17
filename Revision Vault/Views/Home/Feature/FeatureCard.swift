@@ -11,12 +11,16 @@ struct FeatureCard: View {
     var subject: Subject
     
     var body: some View {
-        subject.featureImage?
-            .resizable()
-            .aspectRatio(3 / 2,contentMode: .fit)
-            .overlay{
-                TextOverlay(subject: subject)
-            }
+        NavigationLink{
+            SubjectList()
+        } label: {
+            subject.featureImage?
+                .resizable()
+                .aspectRatio(3 / 2,contentMode: .fit)
+                .overlay{
+                    TextOverlay(subject: subject)
+                }
+        }
     }
 }
 
