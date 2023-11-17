@@ -19,9 +19,15 @@ struct SubjectDetail: View {
         .foregroundStyle(.secondary)
             
             List{
-                link(icon: "menucard.fill", label: "Flashcards", destination: CardsExamBoardSelector(subject: subject, level: level))
-                link(icon: "questionmark.circle.fill", label: "Past Exam Questions", destination: PastExamQsExamBoardSelector(subject: subject, level: level))
-                link(icon: "ellipsis.circle.fill", label: "Other Resources", destination: HomeView())
+                if subject.flashcards{
+                    link(icon: "menucard.fill", label: "Flashcards", destination: CardsExamBoardSelector(subject: subject, level: level))
+                }
+                if subject.pastExamQs{
+                    link(icon: "questionmark.circle.fill", label: "Past Exam Questions", destination: PastExamQsExamBoardSelector(subject: subject, level: level))
+                }
+                if subject.other{
+                    link(icon: "ellipsis.circle.fill", label: "Other Resources", destination: HomeView())
+                }
             }.navigationTitle("\(subject.name)")
             .navigationBarTitleDisplayMode(.large)
         }

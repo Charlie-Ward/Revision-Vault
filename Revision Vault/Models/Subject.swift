@@ -20,6 +20,10 @@ struct Subject: Hashable, Codable, Identifiable {
     var gcse: Bool
     var alevel: Bool
     
+    var flashcards: Bool
+    var pastExamQs: Bool
+    var other: Bool
+    
     var aqaGCSE: Bool
     var aqaALEVEL: Bool
     var edexcelGCSE: Bool
