@@ -12,7 +12,7 @@ struct FeatureCard: View {
     
     var body: some View {
         NavigationLink{
-            SubjectList()
+            SubjectLevelChooser(subject: subject)
         } label: {
             subject.featureImage?
                 .resizable()

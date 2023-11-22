@@ -8,11 +8,38 @@
 import SwiftUI
 
 struct SubjectLevelChooser: View {
+    var subject: Subject
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            Text("Subject Category: \(subject.category.rawValue)")
+        }
+        .font(.subheadline)
+        .foregroundStyle(.secondary)
+        List {
+            if subject.gcse {
+                link(label: "GCSE", destination: SubjectDetail(subject: subject, level: "GCSE"))
+            }
+            if subject.alevel {
+                link(label: "A-Level", destination: SubjectDetail(subject: subject, level: "A-Level"))
+            }
+        }.navigationTitle("\(subject.name)")
+            .navigationBarTitleDisplayMode(.large)
+    }
+    
+    private func link<Destination: View>(label: String, destination: Destination) -> some View {
+        return NavigationLink(destination: destination) {
+            HStack {
+                Text(label)
+            }
+        }
     }
 }
 
-#Preview {
-    SubjectLevelChooser()
+struct SubjectLevelChooser_Previews: PreviewProvider {
+    static var subjects = ModelData().subjects
+    
+    static var previews: some View{
+        SubjectLevelChooser(subject: subjects[0])
+    }
 }

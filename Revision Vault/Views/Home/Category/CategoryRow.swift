@@ -22,7 +22,7 @@ struct CategoryRow: View {
                 HStack(alignment: .top, spacing: 0){
                     ForEach(items) { subject in
                         NavigationLink {
-                            SubjectList()
+                            SubjectLevelChooser(subject: subject)
                         } label: {
                             CategoryItem(subject: subject)
                         }
