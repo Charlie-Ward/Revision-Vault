@@ -30,6 +30,9 @@ struct Subject: Hashable, Codable, Identifiable {
     var edexcelALEVEL: Bool
     
     var isFeatured: Bool
+    var isHomeFeatured: Bool
+    var isFlashcardFeatured: Bool
+    var isPastExamQsFeatured: Bool
 
     private var imageName: String
     var image: Image {

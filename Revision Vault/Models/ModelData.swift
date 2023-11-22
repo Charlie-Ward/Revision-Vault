@@ -9,8 +9,16 @@ import Foundation
 final class ModelData: ObservableObject {
     var subjects: [Subject] = load("subjectData.json")
     
-    var features: [Subject] {
-        subjects.filter{ $0.isFeatured }
+    var homeFeatures: [Subject] {
+        subjects.filter{ $0.isHomeFeatured }
+    }
+    
+    var flashcardFeatures: [Subject] {
+        subjects.filter{ $0.isFlashcardFeatured }
+    }
+    
+    var pastExamQsFeatures: [Subject] {
+        subjects.filter{ $0.isPastExamQsFeatured }
     }
     
     var categories: [String: [Subject]] {

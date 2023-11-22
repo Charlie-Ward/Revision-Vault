@@ -13,6 +13,9 @@
         "edexcelGCSE": false,
         "edexcelALEVEL": true,
         "isFeatured": true,
+        "isHomeFeatured": true,
+        "isFlashcardFeatured": false,
+        "isPastExamQsFeatured": false,
         "imageName": "charleyrivers"
     },
     {
@@ -29,6 +32,9 @@
         "edexcelGCSE": true,
         "edexcelALEVEL":true,
         "isFeatured": true,
+        "isHomeFeatured": true,
+        "isFlashcardFeatured": true,
+        "isPastExamQsFeatured": false,
         "imageName": "stmarylake"
     },
     {
@@ -45,6 +51,9 @@
         "edexcelGCSE": true,
         "edexcelALEVEL": true,
         "isFeatured": true,
+        "isHomeFeatured": true,
+        "isFlashcardFeatured": false,
+        "isPastExamQsFeatured": true,
         "imageName": "turtlerock"
     },
     {
@@ -61,6 +70,9 @@
         "edexcelGCSE": true,
         "edexcelALEVEL": true,
         "isFeatured": true,
+        "isHomeFeatured": true,
+        "isFlashcardFeatured": false,
+        "isPastExamQsFeatured": false,
         "imageName": "turtlerock"
     },
     {
@@ -77,6 +89,9 @@
         "edexcelGCSE": true,
         "edexcelALEVEL": true,
         "isFeatured": true,
+        "isHomeFeatured": true,
+        "isFlashcardFeatured": true,
+        "isPastExamQsFeatured": true,
         "imageName": "turtlerock"
     }
 ]
