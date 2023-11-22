@@ -12,11 +12,11 @@ struct HomeView: View {
     var body: some View {
         NavigationStack{
             List{
-                PageView(pages: modelData.features.map {
+                HomePageView(pages: modelData.homeFeatures.map {
                     FeatureCard(subject: $0)})
                 .aspectRatio(3 / 2, contentMode: .fit)
                 ForEach(modelData.categories.keys.sorted(), id: \.self) { key in
-                    CategoryRow(categoryName: key, items: modelData.categories[key]!)}
+                    HomeCategoryRow(categoryName: key, items: modelData.categories[key]!)}
             }
             .listStyle(.inset)
             .listRowInsets(EdgeInsets())

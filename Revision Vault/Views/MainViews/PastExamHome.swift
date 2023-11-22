@@ -7,15 +7,27 @@
 
 import SwiftUI
 
-
 struct PastExamHome: View {
+    @EnvironmentObject var modelData: ModelData
     var body: some View {
-        Text("Past Exam Qs")
+        NavigationStack{
+            List{
+                FlashcardPageView(pages: modelData.pastExamQsFeatures.map {
+                    FeatureCard(subject: $0)})
+                .aspectRatio(3 / 2, contentMode: .fit)
+                ForEach(modelData.categories.keys.sorted(), id: \.self) { key in
+                    PastExamQsCategoryRow(categoryName: key, items: modelData.categories[key]!)}
+            }
+            .listStyle(.inset)
+            .listRowInsets(EdgeInsets())
+            .navigationTitle("Past Exam Qs")
+        }
     }
 }
 
 struct PastExamHome_Previews: PreviewProvider {
     static var previews: some View{
         PastExamHome()
+            .environmentObject(ModelData())
     }
 }
